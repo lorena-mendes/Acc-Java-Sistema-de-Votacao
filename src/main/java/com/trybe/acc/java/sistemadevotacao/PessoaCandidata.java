@@ -1,10 +1,18 @@
 package com.trybe.acc.java.sistemadevotacao;
 
-
+/**
+ * Classe que representa uma pessoa candidata.
+ */
 public class PessoaCandidata extends Pessoa {
   private int numero;
   private int votos;
 
+  /**
+   * Construtor da classe PessoaCandidata.
+   * 
+   * @param nome / nome da pessoa candidata.
+   * @param numero / número da pessoa candidata.
+   */
   PessoaCandidata(String nome, int numero) {
     super(nome);
     this.numero = numero;

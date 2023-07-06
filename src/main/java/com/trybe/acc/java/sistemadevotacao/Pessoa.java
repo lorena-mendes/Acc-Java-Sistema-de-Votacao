@@ -1,9 +1,16 @@
 package com.trybe.acc.java.sistemadevotacao;
 
-
+/**
+ * Classe abstrata que representa uma pessoa.
+ */
 public abstract class Pessoa {
   protected String nome;
 
+  /**
+   * Construtor da classe Pessoa.
+   * 
+   * @param nome / nome da pessoa.
+   */
   Pessoa(String nome) {
     this.nome = nome;
   }
