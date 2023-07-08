@@ -9,9 +9,6 @@ public class PessoaCandidata extends Pessoa {
 
   /**
    * Construtor da classe PessoaCandidata.
-   * 
-   * @param nome / nome da pessoa candidata.
-   * @param numero / número da pessoa candidata.
    */
   PessoaCandidata(String nome, int numero) {
     super(nome);

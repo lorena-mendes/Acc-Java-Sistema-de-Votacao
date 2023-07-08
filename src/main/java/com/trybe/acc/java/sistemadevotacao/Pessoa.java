@@ -8,8 +8,6 @@ public abstract class Pessoa {
 
   /**
    * Construtor da classe Pessoa.
-   * 
-   * @param nome / nome da pessoa.
    */
   Pessoa(String nome) {
     this.nome = nome;

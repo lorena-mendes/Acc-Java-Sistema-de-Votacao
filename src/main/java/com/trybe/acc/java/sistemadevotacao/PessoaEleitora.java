@@ -8,9 +8,6 @@ public class PessoaEleitora extends Pessoa {
 
   /**
    * Construtor da classe PessoaEleitora.
-   * 
-   * @param nome / nome da pessoa eleitora.
-   * @param numero / número da pessoa eleitora.
    */
   PessoaEleitora(String nome, String cpf) {
     super(nome);

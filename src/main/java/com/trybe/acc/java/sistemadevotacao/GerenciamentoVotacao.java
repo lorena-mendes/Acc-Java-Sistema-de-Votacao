@@ -24,8 +24,8 @@ public class GerenciamentoVotacao {
   }
 
   public void cadastrarPessoaCandidata(String nome, int numero) {
-    for (PessoaCandidata pessoa : pessoasCandidatas) {
-      if (pessoa.getNumero() == numero) {
+    for (PessoaCandidata pessoaCandidata : pessoasCandidatas) {
+      if (pessoaCandidata.getNumero() == numero) {
         System.out.println("Número pessoa candidata já utilizado!");
       }
     }
@@ -35,8 +35,8 @@ public class GerenciamentoVotacao {
   }
 
   public void cadastrarPessoaEleitora(String nome, String cpf) {
-    for (PessoaEleitora pessoa : pessoasEleitoras) {
-      if (pessoa.getCpf() == cpf) {
+    for (PessoaEleitora pessoaEleitora : pessoasEleitoras) {
+      if (pessoaEleitora.getCpf().equals(cpf)) {
         System.out.println("Pessoa eleitora já cadastrada!");
       }
     }
