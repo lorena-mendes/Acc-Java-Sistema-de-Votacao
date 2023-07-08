@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class GerenciamentoVotacao {
 
   /**
-   * Método inicial
+   * Método inicial.
    */
   private ArrayList<PessoaCandidata> pessoasCandidatas;
   private ArrayList<PessoaEleitora> pessoasEleitoras;
@@ -23,6 +23,9 @@ public class GerenciamentoVotacao {
 
   }
 
+  /**
+   * Método para cadastrar pessoa candidata.
+   */
   public void cadastrarPessoaCandidata(String nome, int numero) {
     for (PessoaCandidata pessoaCandidata : pessoasCandidatas) {
       if (pessoaCandidata.getNumero() == numero) {
@@ -34,6 +37,9 @@ public class GerenciamentoVotacao {
     pessoasCandidatas.add(novaPessoaCandidata);
   }
 
+  /**
+   * Método para cadastrar pessoa eleitora.
+   */
   public void cadastrarPessoaEleitora(String nome, String cpf) {
     for (PessoaEleitora pessoaEleitora : pessoasEleitoras) {
       if (pessoaEleitora.getCpf().equals(cpf)) {
@@ -45,6 +51,9 @@ public class GerenciamentoVotacao {
     pessoasEleitoras.add(novaPessoaEleitora);
   }
 
+  /**
+   * Método para votar.
+   */
   public void votar(String cpfPessoaEleitora, int numeroPessoaCandidata) {
     for (String cpf : cpfComputado) {
       if (cpf.equals(cpfPessoaEleitora)) {
@@ -68,6 +77,9 @@ public class GerenciamentoVotacao {
 
   }
 
+  /**
+   * Método que mostra o resultado da votação.
+   */
   public void mostrarResultado() {
     if (totalVotos == 0) {
       System.out.println("É preciso ter pelo menos um voto para mostrar o resultado");
