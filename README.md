@@ -1,4 +1,4 @@
-# Projeto Talker Manager
+# Projeto Sistema de Votação
 Projeto realizado durante o curso de aceleração em Java após o curso de conclusão de desenvolvimento web da Trybe.
 
 ## O que foi desenvolvido
