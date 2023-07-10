@@ -1,10 +1,14 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Projeto Talker Manager
+Projeto realizado durante o curso de aceleração em Java após o curso de conclusão de desenvolvimento web da Trybe.
+
+## O que foi desenvolvido
+Este projeto consiste em um sistema de votação eletrônica desenvolvido em Java. Ele permite o cadastro de pessoas candidatas e pessoas eleitoras, além de possibilitar a realização do processo de votação e exibir os resultados parciais e finais da votação. Pessoa eleitora só pode votar uma única vez 
+
+## Tecnologias utilizadas
+* Java
+* IDE - Eclipse
+
+## Pré-requisitos
+Antes de começar a desenvolver e rodar a aplicação, certifique-se de ter os seguintes pré-requisitos instalados em seu sistema:
+* Java Development Kit (JDK) 8 ou superior;
+* IDE (sugestão do Eclipse);
