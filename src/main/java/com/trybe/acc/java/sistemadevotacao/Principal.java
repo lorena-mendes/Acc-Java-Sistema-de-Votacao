@@ -74,7 +74,7 @@ public class Principal {
       System.out.println("Entre com o número correspondente à opção desejada:");
       System.out.println("1 - Votar");
       System.out.println("2 - Resultado Parcial");
-      System.out.println("2 - Resultado Votação");
+      System.out.println("3 - Resultado Votação");
 
       String input1 = scan.next();
       opcao = Short.parseShort(input1);
